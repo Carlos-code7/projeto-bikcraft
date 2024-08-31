@@ -1,4 +1,6 @@
 @import "./global/header.css";
 @import "./global/global.css";
-@import "./home/introducao.css"; /* home */
-@import "./utilidades/componentes.css"; /* cores e-utilitarios */
+/* home */
+@import "./home/introducao.css";
+/* cores e-utilitarios */
+@import "./utilidades/componentes.css";
