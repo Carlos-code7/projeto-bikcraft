@@ -1,0 +1,35 @@
+:root {
+  --c0: #ffffff;
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dedede;
+  --c4: #cccccc;
+  --c5: #b2b2b2;
+  --c6: #9c9c9c;
+  --c7: #717171;
+  --c8: #595959;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #111111;
+  --c12: #000000;
+  --p5: #332200;
+  --p4: #664400;
+  --p3: #a66e00;
+  --p2: #e4a30b;
+  --p1: #ffbb00;
+}
+
+.texto-c0 {
+  color: var(--c0);
+}
+
+.texto-c5 {
+  color: var(--c5);
+}
+
+.texto-p1 {
+  color: var(--p1);
+}
+.texto-c8 {
+  color: var(--c8);
+}
