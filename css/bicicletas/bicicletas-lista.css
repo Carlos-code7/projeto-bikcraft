@@ -3,12 +3,8 @@
   padding-bottom: 60px;
 }
 .bicicletas-lista h2 {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 40px;
+
 }
 
 .bicicletas-lista ul {
@@ -57,5 +53,8 @@
   }
   .bicicletas-lista {
     padding-bottom: 60px;
+  }
+  .bicicletas-lista h2 {
+    font-size: 48px;
   }
 }
