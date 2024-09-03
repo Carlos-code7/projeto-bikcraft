@@ -107,4 +107,27 @@
   .diferencial-vantagens {
     flex-direction: column;
   }
+  .diferencial-texto h2 {
+    max-width: 13ch;
+    line-height: 1.02;
+    font-size: 36px;
+  }
+  .diferencial-texto h2 span {
+    max-width: 13ch;
+    line-height: 1.02;
+    font-size: 36px;
+  }
+  .diferencial-texto p {
+    font-size: 18px;
+    line-height: 1.15;
+  }
+  .diferencial-vantagens h3 {
+    font-size: 24px;
+  }
+  .diferencial-vantagens p {
+    font-size: 16px;
+  }
+  .diferencial-texto span {
+    font-size: 18px;
+  }
 }

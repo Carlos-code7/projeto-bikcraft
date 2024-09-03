@@ -4,7 +4,10 @@
 }
 .bicicletas-lista h2 {
   padding-bottom: 40px;
+}
 
+.bicicletas-div h2 {
+  width: 1200px;
 }
 
 .bicicletas-lista ul {
@@ -56,5 +59,25 @@
   }
   .bicicletas-lista h2 {
     font-size: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicletas-lista h2 span {
+    max-width: 13ch;
+    line-height: 1.02;
+    font-size: 36px;
+  }
+  .bicicletas-lista h2 {
+    max-width: 13ch;
+    line-height: 1.02;
+    font-size: 36px;
+  }
+  .bicicletas-lista h3 {
+    font-size: 24px;
+    line-height: 1.15;
+  }
+  .bicicletas-lista span {
+    font-size: 16px;
   }
 }

@@ -14,7 +14,7 @@
   padding-bottom: 200px;
 }
 
-.conteudo-texto h1 {
+.conteudo-texto h2 {
   margin-bottom: 32px;
 }
 
@@ -76,5 +76,17 @@
   }
   .bike {
     display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .conteudo-texto h2 {
+    max-width: 13ch;
+    line-height: 1.02;
+    font-size: 36px;
+  }
+  .conteudo-texto p {
+    font-size: 18px;
+    line-height: 1.15;
   }
 }
