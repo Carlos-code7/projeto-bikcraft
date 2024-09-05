@@ -1,0 +1,85 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--p1);
+}
+
+.depoimento img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+.depoimento-conteudo {
+  padding: 40px 40px 80px 80px;
+  align-content: end;
+}
+
+.depoimento-conteudo blockquote {
+  padding-bottom: 32px;
+  max-width: 32ch;
+}
+
+.depoimento-conteudo blockquote {
+  padding-bottom: 32px;
+  max-width: 32ch;
+  position: relative;
+}
+
+.depoimento-conteudo span {
+  font-weight: 600;
+}
+.depoimento-conteudo p {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 900;
+}
+.depoimento p::before,
+.depoimento p::after {
+  position: absolute;
+  font-size: 5rem;
+  color: var(--p2);
+}
+.depoimento p::before {
+  content: "“";
+  left: -50px;
+}
+
+.depoimento p::after {
+  content: "”";
+  bottom: -10px;
+}
+
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento img {
+    max-height: 200px;
+  }
+  .depoimento-conteudo {
+    padding: 40px 20px;
+    margin: auto;
+  }
+  .depoimento-conteudo blockquote {
+    font-size: 24px;
+  }
+  .depoimento p::before,
+  .depoimento p::after {
+    position: absolute;
+    font-size: 3rem;
+  }
+  .depoimento p::before {
+    left: -30px;
+  }
+
+  .depoimento p::after {
+    top: 150px;
+  }
+
+  .depoimento-conteudo span {
+    font-size: 18px;
+  }
+}
