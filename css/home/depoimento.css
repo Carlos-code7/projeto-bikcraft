@@ -69,10 +69,10 @@
   .depoimento p::before,
   .depoimento p::after {
     position: absolute;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .depoimento p::before {
-    left: -30px;
+    left: 10px;
   }
 
   .depoimento p::after {
