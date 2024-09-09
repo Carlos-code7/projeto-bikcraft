@@ -1,0 +1,22 @@
+.titulo-bg {
+  background: var(--c11, #111);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.termos-conteudo {
+  padding-top: 120px;
+}
+.titulo-conteudo h3 {
+  margin-bottom: 20px;
+}
+
+.termos-conteudo li {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .termos-span {
+    font-size: 16px;
+  }
+}
