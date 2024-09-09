@@ -49,9 +49,7 @@
   .bicicletas-lista {
     padding-bottom: 60px;
   }
-  .bicicletas-lista h2 {
-    font-size: 48px;
-  }
+
 }
 
 @media (max-width: 600px) {
@@ -59,13 +57,6 @@
     max-width: 13ch;
     line-height: 1.02;
     font-size: 36px;
-  }
-  .bicicletas-lista h2 {
-    max-width: 13ch;
-    line-height: 1.02;
-    font-size: 36px;
-    display: inline-block;
-    box-sizing: initial;
   }
   .bicicletas-lista h3 {
     font-size: 24px;

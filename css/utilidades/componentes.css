@@ -27,4 +27,15 @@
     padding: 12px 16px;
     font-size: 16px;
   }
+  .titulo {
+    line-height: 1.02;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 800px) {
+  .titulo {
+    font-size: 48px;
+    line-height: 1.05;
+  }
 }

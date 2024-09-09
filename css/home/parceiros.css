@@ -34,10 +34,6 @@
 }
 
 @media (max-width: 800px) {
-  .parceiros h2 {
-    font-size: 36px;
-    line-height: 1.02;
-  }
   .parceiros ul {
     grid-template-columns: 1fr 1fr;
   }

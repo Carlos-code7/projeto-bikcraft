@@ -87,10 +87,7 @@
   .tecnologia a {
     margin-bottom: 60px;
   }
-  .diferencial-texto h2 {
-    font-size: 48px;
-    line-height: 1.05;
-  }
+
   .diferencial-texto p {
     font-size: 20px;
     line-height: 1.15;
@@ -109,8 +106,6 @@
   }
   .diferencial-texto h2 {
     max-width: 13ch;
-    line-height: 1.02;
-    font-size: 36px;
   }
   .diferencial-texto h2 span {
     max-width: 13ch;

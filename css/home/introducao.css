@@ -53,8 +53,6 @@
     display: none;
   }
   .conteudo-texto h2 {
-    font-size: 48px;
-    line-height: 1.05;
     padding-top: 60px;
   }
   .conteudo-texto p {
@@ -82,8 +80,7 @@
 @media (max-width: 600px) {
   .conteudo-texto h2 {
     max-width: 13ch;
-    line-height: 1.02;
-    font-size: 36px;
+
   }
   .conteudo-texto p {
     font-size: 18px;
