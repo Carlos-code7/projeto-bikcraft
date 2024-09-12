@@ -69,14 +69,14 @@
   .depoimento p::before,
   .depoimento p::after {
     position: absolute;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .depoimento p::before {
-    left: -25px;
+    left: -16px;
   }
 
   .depoimento p::after {
-    top: 150px;
+    top: 175px;
   }
 
   .depoimento-conteudo span {
