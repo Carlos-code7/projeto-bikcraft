@@ -8,8 +8,7 @@
 @import "./home/diferencial.css";
 /* cores e-utilitarios */
 @import "./utilidades/componentes.css";
-/* bicicletas */
-@import "./bicicletas/bicicletas-lista.css";
+@import "./home/bicicletas-lista.css";
 /* parceiros */
 @import "./home/parceiros.css";
 /* depoimento */
@@ -18,3 +17,4 @@
 @import "./home/seguros.css";
 /* termos */
 @import "./termos/termos.css";
+@import "./bicicletas/bicicletas.css";
