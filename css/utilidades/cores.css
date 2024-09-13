@@ -40,6 +40,9 @@
 .texto-c11 {
   color: var(--c11);
 }
+.texto-c9 {
+  color: var(--c9, #404040);
+}
 
 .texto-p4 {
   color: var(--p4);

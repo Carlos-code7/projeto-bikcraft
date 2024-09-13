@@ -1,0 +1,90 @@
+.vantagens-bg {
+  background: var(--c12, #000);
+}
+.vantagens-lista {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+}
+.vantagens-conteudo h2 {
+  padding-bottom: 100px;
+  padding-top: 120px;
+}
+
+.vantagens-lista h3 {
+  padding-top: 8px;
+}
+
+.vantagens-lista p {
+  padding-top: 8px;
+  padding-bottom: 120px;
+}
+
+.vantagens-lista ul {
+  padding-right: 40px;
+}
+
+.vantagens-lista img {
+  padding-top: 40px;
+  width: 32px;
+  height: 32px;
+}
+.perguntas h2 {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.perguntas dl > div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.perguntas dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.perguntas dl {
+  cursor: pointer;
+}
+
+.perguntas dd {
+  margin-top: 16px;
+  padding-left: 20px;
+}
+
+.perguntas dl > div:nth-child(odd) {
+  background-color: var(--c1);
+}
+
+.perguntas dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--p1);
+}
+
+.perguntas dt::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background-image: url(../../img/icones/seta-abrir.svg);
+}
+
+.perguntas dt:hover::after {
+  transform: rotate(180deg);
+}
+
+@media (max-width:600px ) {
+  .vantagens-lista img {
+    padding-top: 0px;
+  }
+  .perguntas h2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
