@@ -13,6 +13,7 @@
 .bicicleta-imagens img {
   flex: 1;
   min-width: 200px;
+  flex-wrap: wrap;
 }
 
 .bicicleta-imagens img:first-child {
@@ -81,6 +82,9 @@
   }
   .bicicleta-conteudo h2 {
     margin-bottom: 20px;
+  }
+  .bicicleta-imagens img {
+    min-width: 50px;
   }
 }
 
