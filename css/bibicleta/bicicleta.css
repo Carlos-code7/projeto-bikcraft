@@ -1,0 +1,144 @@
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  padding-top: 60px;
+}
+.bicicleta-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.bicicleta-imagens img {
+  flex: 1;
+  min-width: 200px;
+}
+
+.bicicleta-imagens img:first-child {
+  min-width: 100%;
+}
+
+.bicicleta-conteudo p {
+  padding-bottom: 32px;
+}
+
+.comprar {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  margin-bottom: 40px;
+  gap: 8px 12px;
+}
+
+.comprar a {
+  grid-row: span 2;
+}
+
+.comprar span {
+  display: flex;
+  align-items: center;
+  background: var(--c12, #000);
+  padding: 4px 8px;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.bicicleta h2 {
+  margin-bottom: 42px;
+}
+
+.bicicleta-vantagens img {
+  width: 24px;
+}
+
+.bicicleta-vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.bicicleta-vantagens h3 {
+  padding-bottom: 8px;
+}
+
+.bicicleta-ficha li {
+  display: flex;
+  padding-bottom: 12px;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--11);
+}
+
+.bicicleta-ficha li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 800px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+  }
+  .bicicleta-conteudo h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.escolha {
+  display: flex;
+}
+.escolha li {
+  padding-bottom: 80px;
+}
+.escolha-nav h2 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.escolha li {
+  gap: 40px;
+}
+
+.escolha li span {
+  padding-left: 20px;
+}
+
+.escolha li h3 {
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.escolha li h3::before {
+  margin-right: 8px;
+  place-self: center;
+  display: flex;
+  width: 12px;
+  height: 8px;
+  content: "";
+  background: var(--p1, #fb0);
+  display: inline-block;
+}
+
+.escolha li img {
+  padding-bottom: 12px;
+}
+
+.escolha li:first-child {
+  padding-right: 40px;
+}
+
+@media (max-width: 800px) {
+  .escolha-nav h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .escolha li:first-child {
+    padding-right: 20px;
+  }
+  .escolha li img {
+    padding-bottom: 10px;
+  }
+  .escolha li h3 {
+    padding-bottom: 0px;
+  }
+}
