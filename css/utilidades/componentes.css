@@ -7,6 +7,12 @@
   margin-right: auto;
 }
 
+.titulo-bg {
+  background: var(--c11, #111);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .botao {
   color: var(--p5);
   padding: 16px 32px;
@@ -17,6 +23,8 @@
   font: 600 1.125rem/1.35 "Poppins", f sans-serif;
   max-width: max-content;
   text-transform: uppercase;
+  border: none;
+  cursor: pointer;
 }
 
 .botao.seta {
