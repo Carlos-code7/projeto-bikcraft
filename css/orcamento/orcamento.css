@@ -1,0 +1,11 @@
+#orcamento {
+   background: linear-gradient(var(--c11) 600px, var(--c1) 0px);
+ }
+ label {
+  color: white;
+ }
+
+ .orcamento {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+ }

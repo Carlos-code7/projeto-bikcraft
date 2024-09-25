@@ -56,14 +56,14 @@
   height: 30px;
   background: var(--c2);
 }
-.lojas-lista h3 {
-  grid-column: 1 / -1;
-  margin-bottom: 32px;
-}
+
 .lojas h3 {
   padding-bottom: 8px;
   display: flex;
   align-items: center;
+  grid-column: 1 / -1;
+  margin-bottom: 32px;
+  padding-left: 8px;
 }
 
 .lojas h3::before {
@@ -90,7 +90,7 @@
 }
 
 .lojas-tempo img {
-  width: 24px;
+  width: 20px;
 }
 
 @media (max-width: 800px) {
