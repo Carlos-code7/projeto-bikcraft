@@ -1,5 +1,6 @@
 .main-bg {
-  background-color: var(--c12);
+  background: var(--c12) url(../../img/dec/bottom-left.svg)
+   no-repeat bottom 160px left 20px;
   box-shadow: inset 0px -120px 0px var(--c0);
 }
 
@@ -28,11 +29,7 @@
   border-radius: 5px;
 }
 
-#deco {
-  position: absolute;
-  top: 500px;
-  left: 40px;
-}
+
 @media (max-width: 1200px) {
   .conteudo-texto h1 {
     font-size: 48px;
@@ -49,9 +46,7 @@
   .conteudo {
     grid-template-columns: 1fr;
   }
-  #deco {
-    display: none;
-  }
+
   .conteudo-texto h2 {
     padding-top: 60px;
   }
@@ -63,15 +58,7 @@
     padding-bottom: 20px;
     gap: 32px;
   }
-  .image {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url("../../img/bicicletas/nimbus.jpg");
-    height: 300px;
-    width: 100%;
-    border-radius: 5px;
-  }
+ 
   .bike {
     display: none;
   }

@@ -4,6 +4,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url(../../img/dec/top-right.svg) no-repeat top 40px right 20px;
 }
 
 .bicicletas-conteudo {
@@ -77,5 +78,10 @@
   .bicicletas-conteudo p {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .bicicletas {
+    background-image: none;
   }
 }
